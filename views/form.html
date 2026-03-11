@@ -1,0 +1,22 @@
+<h2 class="text-xl font-bold mb-4">Form Mahasiswa</h2>
+
+<form method="POST" action="{{action}}">
+    <div class="mb-3">
+        <label>Nama</label>
+        <input name="nama" value="{{nama}}" class="border p-2 w-full">
+    </div>
+
+    <div class="mb-3">
+        <label>Jurusan</label>
+        <input name="jurusan" value="{{jurusan}}" class="border p-2 w-full">
+    </div>
+
+    <div class="mb-3">
+        <label>Angkatan</label>
+        <input name="angkatan" value="{{angkatan}}" class="border p-2 w-full">
+    </div>
+
+    <button class="bg-blue-500 text-white px-4 py-2 rounded mt-2">
+        Simpan
+    </button>
+</form>

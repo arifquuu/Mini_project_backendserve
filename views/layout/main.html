@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admin Panel</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+
+    <div class="flex">
+        
+        <div class="w-64 bg-gray-800 text-white min-h-screen">
+            <div class="p-4 font-bold text-xl">
+                Admin Panel
+            </div>
+            <ul>
+                <li class="p-3 hover:bg-gray-700">
+                    <a href="/">Dashboard</a>
+                </li>
+                <li class="p-3 hover:bg-gray-700">
+                    <a href="/mahasiswa">Mahasiswa</a>
+                </li>
+            </ul>
+        </div>
+        
+        <div class="flex-1">
+            
+            <div class="bg-white shadow p-4 flex justify-between">
+                <h1 class="font-bold">Sistem Informasi Kampus</h1>
+                <div>
+                    Admin
+                </div>
+            </div>
+            
+            <div class="p-6">
+                {{content}}
+            </div>
+            
+        </div>
+        
+    </div>
+
+</body>
+</html>
